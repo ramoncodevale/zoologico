@@ -1,0 +1,18 @@
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.main-container h1 {
+  color: var(--color-text);
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.main-container img {
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+}
