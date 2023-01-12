@@ -15,6 +15,8 @@ const Main = () => {
       </h1>
       <img src={Camaleao} alt="imagem do camaleão" />
     </div>
+     
+    
   );
 };
 
