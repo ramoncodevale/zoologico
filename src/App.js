@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import { Main, Zoo } from "./container";
+import { Main, Zoo, Atracao } from "./container";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Main />
       <Zoo />
+      <Atracao />
     </div>
   );
 }

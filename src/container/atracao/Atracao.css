@@ -1,0 +1,39 @@
+.zoo-galeria {
+  display: flex;
+  justify-content: center;
+}
+
+.container-atracao {
+  display: flex;
+  width: 640px;
+  height: 400px;
+  cursor: grab;
+  margin-top: 100px;
+}
+
+
+.atracao h1 {
+  text-align: center;
+  color: var(--color-text);
+  margin-top: 100px;
+}
+
+.container-atracao img {
+ min-width: 0;
+ flex: 1 1 10px;
+ object-fit: cover;
+ opacity: 0.5;
+ transition: 0.5s;
+ border-radius: 10px;
+}
+
+.container-atracao img:hover {
+  flex: 1 1 280px;
+  opacity: 1;
+}
+
+p {
+  color: var(--color-text);
+  font-size: 20px;
+  width: 420px;
+}
