@@ -1,6 +1,5 @@
 import React from "react";
 import Camaleao from '../../assets/camaleao.jpg';
-
 import './Main.css';
 
 

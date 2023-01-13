@@ -1,0 +1,12 @@
+.museu h1 {
+    color: var(--color-text);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container-museu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+

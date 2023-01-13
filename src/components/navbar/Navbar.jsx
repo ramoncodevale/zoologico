@@ -18,10 +18,10 @@ const Navbar = () => {
           <a href="#home">Inicio</a>
         </li>
         <li className="link-navbar">
-          <a href="#about">Museu</a>
+          <a href="#about">Atrações</a>
         </li>
         <li className="link-navbar">
-          <a href="#history">Atrações</a>
+          <a href="#history">Museu</a>
         </li>
       </ul>
       <div className="app__navbar-login">

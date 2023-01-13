@@ -4,6 +4,8 @@ import Leao from "../../assets/leao.jpg";
 import Elefante from "../../assets/elefante.jpg";
 import Macaco from "../../assets/macaco.jpg";
 import Tigre from "../../assets/tigre.jpg";
+import Tucano from "../../assets/tucano.jpg";
+
 
 import "./Atracao.css";
 
@@ -18,6 +20,7 @@ const Atracao = () => {
           <img src={Elefante} alt="Imagem do Elefante" />
           <img src={Macaco} alt="Imagem do Macaco" />
           <img src={Tigre} alt="Imagem do Tigre" />
+          <img src={Tucano} alt="Imagem do Tucano" />
         </div>;
       </div>
     </div>
