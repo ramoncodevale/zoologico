@@ -1,0 +1,15 @@
+.container-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container-footer h1 {
+    color: var(--color-text);
+    text-align: center;
+}
+
+.container-footer a {
+    padding: 20px;
+    
+}
