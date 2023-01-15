@@ -13,6 +13,7 @@
 .container-museu img {
   width: 400px;
   height: 400px;
+
 }
 
 .container-museu p {
@@ -33,6 +34,12 @@
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+  }
+
+  .container-museu img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
   }
 
   .container-museu p {
@@ -56,6 +63,11 @@
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+  }
+
+  .container-museu img {
+    width: 300px;
+    height: 300px;
   }
 
   .container-museu p {

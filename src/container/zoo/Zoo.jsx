@@ -12,12 +12,12 @@ const Zoo = () => {
       <div>
         <p>
           What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. <br></br> Lorem Ipsum has been the industry's standard
+          and typesetting industry. <br></br> Lorem Ipsum has been the industry's
           dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled <br></br> it to make a type specimen book. It has survived
+          of type and scrambled <br></br> it to make a type specimen book.
           not only five centuries, <br></br> but also the leap into electronic
           typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release <br></br> of Letraset sheets containing Lorem Ipsum
+          the 1960s with the release <br></br> of Letraset sheets
           passages, and more recently with desktop  publishing software like
           Aldus PageMaker including versions of Lorem Ipsum.
         </p>
