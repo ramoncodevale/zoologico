@@ -1,12 +1,42 @@
 .museu h1 {
-    color: var(--color-text);
-    margin-top: 100px;
-    text-align: center;
+  color: var(--color-text);
+  margin-top: 100px;
+  text-align: center;
 }
 
 .container-museu {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
 
+.container-museu img {
+  width: 200px;
+  height: 200px;
+}
+
+.container-museu p {
+  text-align: center;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 767px) {
+  .museu h1 {
+    color: var(--color-text);
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .container-museu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .container-museu p {
+    text-align: center;
+    color: var(--color-text);
+    margin-top: 50px;
+  }
+}
