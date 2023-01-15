@@ -37,3 +37,25 @@ p {
   font-size: 20px;
   width: 420px;
 }
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+  .zoo-galeria {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .atracao h1 {
+    text-align: center;
+    color: var(--color-text);
+    margin-top: 100px;
+  }
+
+  .container-atracao {
+    display: flex;
+    width: 640px;
+    height: 400px;
+    cursor: grab;
+    margin-top: 100px;
+  }
+}

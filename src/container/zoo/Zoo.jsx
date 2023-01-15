@@ -9,6 +9,7 @@ const Zoo = () => {
       <h1>Zoológico</h1>
       <div className="container-zoologico">
         <img src={Onca} alt="Imagem da Onca" />
+      <div>
         <p>
           What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
           and typesetting industry. <br></br> Lorem Ipsum has been the industry's standard
@@ -21,6 +22,7 @@ const Zoo = () => {
           Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
+    </div>
     </div>
   );
 };
