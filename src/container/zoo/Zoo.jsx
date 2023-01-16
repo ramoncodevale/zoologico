@@ -1,5 +1,9 @@
 import React from "react";
 import Onca from "../../assets/onca.jpg";
+import Girafa from "../../assets/girafa.jpg";
+import Zebra from "../../assets/zebras.jpg";
+import Leões from "../../assets/leoes.jpg";
+
 
 import "./Zoo.css";
 
@@ -23,6 +27,23 @@ const Zoo = () => {
         </p>
       </div>
     </div>
+
+      <div className="section-cards-zoologico">
+        <div className="cards-zoologico">
+        <img className="img-zoo" src={Girafa} alt="Imagem da girafas" />
+        <p>Girafas</p>
+        </div>
+
+        <div className="cards-zoologico">
+        <img className="img-zoo" src={Zebra} alt="Imagem das Zebras" />
+        <p>Zebras</p>
+        </div>
+
+        <div className="cards-zoologico">
+        <img className="img-zoo" src={Leões} alt="Imagem dos Leões" />
+        <p>Leões</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -26,6 +26,36 @@
   align-items: center;
 }
 
+.section-cards-zoologico {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.cards-zoologico {
+  width: 400px;
+  height: 400px;
+  background-color: var(--color-text);
+  border: 1px solid var(--color-hover);
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.section-cards-zoologico .img-zoo {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.section-cards-zoologico p{
+  color: var(--background-color);
+  text-align: center;
+  margin-top: 10px;
+}
+
 .container-zoologico p {
   width: 420px;
   font-size: 20px;
